@@ -21,9 +21,6 @@ export default function HomePage() {
 
         {/* Reply Example */}
         <Reply name="หมาน้อย" />
-        <Reply name="Cat Meme" />
-
-        <Comment name="Charlie Brown" />
 
         {/* map-loop render Comment component here */}
       </div>

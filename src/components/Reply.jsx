@@ -17,7 +17,7 @@ export const Reply = ({ userImagePath, username, replyText, likeNum }) => {
         <span>{replyText}</span>
         <div className="d-flex align-items-center gap-1">
           <img src="/like.svg" width={20}></img>
-          <span className="text-muted">{likeNum} คน</span>
+          <span className="text-muted">0 คน</span>
         </div>
       </div>
     </div>

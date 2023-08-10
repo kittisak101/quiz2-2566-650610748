@@ -27,7 +27,7 @@ export const Comment = ({
           <span>{commentText}</span>
           <div className="d-flex align-items-center gap-1">
             <img src="/like.svg" width={20}></img>
-            <span className="text-muted">{likeNum} คน</span>
+            <span className="text-muted">999 คน</span>
           </div>
         </div>
       </div>
