@@ -1,4 +1,5 @@
 import { Reply } from "./Reply";
+import { comments } from "@comments";
 
 export const Comment = ({
   userImagePath,
@@ -11,13 +12,12 @@ export const Comment = ({
     <div>
       <div className="d-flex gap-2 my-2">
         <img
-          src={userImagePath}
           width="48"
           height="48"
           className="rounded-circle"
           style={{ objectFit: "cover" }}
         >
-          {userImagePath.src}
+          {userImagePath}
         </img>
         <div
           className="rounded rounded-3 p-2"
