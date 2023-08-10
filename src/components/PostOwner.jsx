@@ -16,7 +16,7 @@ export const PostOwner = ({ username, likeNum }) => {
 
       <div className="d-flex align-items-center gap-1">
         <img src="/like.svg" width={20}></img>
-        <span className="text-muted">100 คน</span>
+        <span className="text-muted">{likeNum} คน</span>
       </div>
       <hr className="m-0 border" />
     </div>

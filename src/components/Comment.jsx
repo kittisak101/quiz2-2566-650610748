@@ -12,7 +12,7 @@ export const Comment = ({
     <div>
       <div className="d-flex gap-2 my-2">
         <img
-          src="/profileImages/lisa.jpg"
+          src={userImagePath}
           width="48"
           height="48"
           className="rounded-circle"
@@ -27,7 +27,7 @@ export const Comment = ({
           <span>{commentText}</span>
           <div className="d-flex align-items-center gap-1">
             <img src="/like.svg" width={20}></img>
-            <span className="text-muted">999 คน</span>
+            <span className="text-muted">{likeNum} คน</span>
           </div>
         </div>
       </div>
