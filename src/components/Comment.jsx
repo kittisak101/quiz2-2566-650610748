@@ -12,13 +12,12 @@ export const Comment = ({
     <div>
       <div className="d-flex gap-2 my-2">
         <img
+          src="/profileImages/lisa.jpg"
           width="48"
           height="48"
           className="rounded-circle"
           style={{ objectFit: "cover" }}
-        >
-          {userImagePath}
-        </img>
+        />
         <div
           className="rounded rounded-3 p-2"
           style={{ backgroundColor: "#E5E7EB" }}

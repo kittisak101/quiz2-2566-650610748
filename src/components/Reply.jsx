@@ -2,13 +2,12 @@ export const Reply = ({ userImagePath, username, replyText, likeNum }) => {
   return (
     <div className="d-flex gap-2 my-2 ps-5">
       <img
+        src="/profileImages/puppy.jpg"
         width="48"
         height="48"
         className="rounded-circle"
         style={{ objectFit: "cover" }}
-      >
-        {userImagePath}
-      </img>
+      />
       <div
         className="rounded rounded-3 p-2"
         style={{ backgroundColor: "#E5E7EB" }}
